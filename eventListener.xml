@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/eventListener.xsd">
+	<import>	
+		<eventlistener>
+			<eventclassname><![CDATA[wcf\data\moderation\queue\ModerationQueueReportAction]]></eventclassname>
+			<environment>user</environment>
+			<eventname>initializeAction</eventname>
+			<listenerclassname><![CDATA[wcf\system\event\listener\ReportRestrictListener]]></listenerclassname>
+		</eventlistener>
+	</import>
+</data>
