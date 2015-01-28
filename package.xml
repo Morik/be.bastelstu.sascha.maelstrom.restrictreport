@@ -5,8 +5,8 @@
 		<packagename language="de"><![CDATA[Melden beschränken]]></packagename>
 		<packagedescription><![CDATA[Allows you to restrict reporting of contents]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Erlaubt Ihnen, das Melden von Inhalten zu beschränken]]></packagedescription>
-		<version>1.0.1 pl 1</version>
-		<date>2014-06-23</date>
+		<version>1.0.2</version>
+		<date>2014-01-28</date>
 		<license><![CDATA[Creative Commons Attribution-NoDerivatives <http://creativecommons.org/licenses/by-nd/4.0/legalcode>]]></license>
 	</packageinformation>
 	
@@ -20,18 +20,15 @@
 		<requiredpackage minversion="1.0.1" file="requirements/be.bastelstu.sascha.maelstrom.comcat.tar">be.bastelstu.sascha.maelstrom.comcat</requiredpackage>
 	</requiredpackages>
 	
-	<excludedpackages>
-		<excludedpackage version="2.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-	</excludedpackages>
-	
-	<instructions type="update" fromversion="1.0.1">		
-		<!-- languages -->
-		<instruction type="language">language/*.xml</instruction>
-	</instructions>
-	
-	<instructions type="update" fromversion="1.0.0">		
+	<instructions type="update" fromversion="1.0.*">	
+		<!-- files -->
+		<instruction type="file">file.tar</instruction>
+		
 		<!-- config -->
 		<instruction type="userGroupOption">userGroupOption.xml</instruction>
+		
+		<!-- languages -->
+		<instruction type="language">language/*.xml</instruction>
 	</instructions>
 	
 	<instructions type="install">
