@@ -3,5 +3,10 @@
 	<category name="wcf.acp.group">
 		<item name="wcf.acp.group.option.category.user.community"><![CDATA[Community]]></item>
 		<item name="wcf.acp.group.option.user.community.canReport"><![CDATA[Kann Inhalte melden]]></item>
+		<item name="wcf.acp.group.option.user.community.reportLimit"><![CDATA[Tägliches Melde-Limit]]></item>
+		<item name="wcf.acp.group.option.user.community.reportLimit.description"><![CDATA[Die maximale Anzahl an Meldungen die Mitglieder dieser Benutzergruppe täglich abgeben können. [-1 für unbegrenzten Anzahl]]]></item>
+	</category>
+	<category name="wcf.global">
+		<item name="wcf.global.error.reportLimitReached"><![CDATA[Ihr Tages Limit für Meldungen wurde erreicht.]]></item>
 	</category>
 </language>
