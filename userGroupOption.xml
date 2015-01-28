@@ -8,6 +8,12 @@
 				<defaultvalue>1</defaultvalue>
 				<admindefaultvalue>1</admindefaultvalue>
 			</option>
+			<option name="user.community.reportLimit">
+				<categoryname>user.community</categoryname>
+				<optiontype>infiniteInteger</optiontype>
+				<defaultvalue>-1</defaultvalue>
+				<admindefaultvalue>-1</admindefaultvalue>
+			</option>
 		</options>
 	</import>
 </data>
